@@ -59,9 +59,10 @@ router.get('/drinks/:id', requireToken, (req, res, next) => {
 // POST /examples
 router.post('/drinks', requireToken, (req, res, next) => {
   // set owner of new example to be current user
-  req.body.drink.owner = req.user.id
+  console.log(req.body.drinks)
+  req.body.drinks.owner = req.user.id
 
-  Drink.create(req.body.drink)
+  Drink.create(req.body.drinks)
     // respond to succesful `create` with status 201 and JSON of new "example"
     .then(drink => {
       res.status(201).json({ drink: drink.toObject() })
