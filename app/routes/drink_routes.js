@@ -78,7 +78,7 @@ router.post('/drinks', requireToken, (req, res, next) => {
 router.patch('/drinks/:id', requireToken, removeBlanks, (req, res, next) => {
   // if the client attempts to change the `owner` property by including a new
   // owner, prevent that by deleting that key/value pair
-  delete req.body.drink.owner
+  delete req.body.drinks.owner
 
   Drink.findById(req.params.id)
     .then(handle404)
@@ -88,7 +88,7 @@ router.patch('/drinks/:id', requireToken, removeBlanks, (req, res, next) => {
       requireOwnership(req, drink)
 
       // pass the result of Mongoose's `.update` to the next `.then`
-      return drink.updateOne(req.body.drink)
+      return drink.updateOne(req.body.drinks)
     })
     // if that succeeded, return 204 and no JSON
     .then(() => res.sendStatus(204))
