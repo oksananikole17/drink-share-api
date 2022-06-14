@@ -31,8 +31,11 @@ Client Repo:https://github.com/oksananikole17/drink-share-client
 (https://i.imgur.com/Ty1Y52o.jpg)
 
 ## Planning Story
+
 Design ERD and Wire-frame
+
 Create reminder routes of GET, POST, PATCH, DELETE
+
 Created schema for "Drink" with the keys of name, build, and base.
 
 ## API Routes
