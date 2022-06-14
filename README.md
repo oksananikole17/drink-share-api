@@ -5,7 +5,7 @@ Welcome to my DrinkShare App! This application is designed to allow you to sign-
 
 Tech: HTML, CSS, JavaScript, Node.js,  Express.js, MongoDB, Mongoose, Bootstrap
 
-Client Repo:
+Client Repo:https://github.com/oksananikole17/drink-share-client
 
 ## Instructions
 
