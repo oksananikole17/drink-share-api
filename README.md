@@ -39,7 +39,7 @@ Create reminder routes of GET, POST, PATCH, DELETE
 Created schema for "Drink" with the keys of name, build, and base.
 
 ## API Routes
-###HTTP Method	 ###URLPath	    ###Action	   ###CRUD
+HTTP Method	     URLPath	       Action	      CRUD
 
 GET	            /drinks	   index or list	   Read
 
