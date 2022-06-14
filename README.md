@@ -34,7 +34,7 @@ Client Repo:https://github.com/oksananikole17/drink-share-client
 
 Design ERD and Wire-frame
 
-Create reminder routes of GET, POST, PATCH, DELETE
+Create drink routes of GET, POST, PATCH, DELETE
 
 Created schema for "Drink" with the keys of name, build, and base.
 
