@@ -7,6 +7,8 @@ Tech: HTML, CSS, JavaScript, Node.js,  Express.js, MongoDB, Mongoose, Bootstrap
 
 Client Repo:https://github.com/oksananikole17/drink-share-client
 
+API Deployed Link: https://git.heroku.com/calm-depths-04533.git
+
 ## Instructions
 
 1. Fork and clone this repository.
